@@ -1,0 +1,15 @@
+[project]
+name = "life-coach-agent"
+version = "0.1.0"
+requires-python = ">=3.13"
+description = "Nomad Coders AI Agent Assignment"
+dependencies = [
+    "streamlit",
+    "openai",
+    "openai-agents",
+    "duckduckgo-search",
+    "python-dotenv",
+]
+
+[tool.uv]
+dev-dependencies = []
